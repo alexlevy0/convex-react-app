@@ -3,7 +3,7 @@ import { useQuery } from "convex/react";
 import { api } from "../convex/_generated/api";
 
 function App() {
-  console.log('hello world');
+  console.log('hello world !');
   const tasks = useQuery(api.tasks.get);
   return (
     <div className="App">
